@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: var(--dark-01, #131313);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+nav > ul {
+    display: flex;
+
+}
+
+nav li {
+    
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    list-style: none;
+    margin-left: 30px;
+
+}
+
+nav a {
+    color: var(--dark-02, #424242);
+    text-decoration: none;
+}
+
+
+.banner-content {
+    max-width: 900px;
+    text-align: center;
+    margin:auto;
+    margin-top: 70px;
+}
+
+.banner-title {
+    font-size: 4rem;
+    color: var(--dark-01, #131313);
+    
+}
+
+.banner-description {
+    margin-top: 20px;
+    color: var(--dark-03, #727272);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.btn-primary {
+    color: white;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 16px 25px;
+    border-radius: 8px;
+    background: #FF900E;
+}
