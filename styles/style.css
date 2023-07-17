@@ -182,12 +182,19 @@ main {
     color: gray;
 }
 
+.feature-image  img {
+    height: 80%;
+    margin-left: 50px;
+}
+
 .ten-years-badge {
     padding: 40px;
     border-radius: 8px;
     background: #FF900E;
     color: white;
     width: 342px;
+    position: relative;
+    bottom: 100px;
 }
 
 .ten-years-badge h1 {
@@ -195,6 +202,7 @@ main {
     text-align: center;
     font-size: 4rem;
     font-weight: 700;
+
 }
 
 .ten-years-badge p {
@@ -294,6 +302,33 @@ main {
     .sponser-img-container {
         flex-direction: column;
     }
+
+    /* feature styles */
+    .features {
+        flex-direction: column;
+    }
+
+    .feature-title {
+        margin-left: 20px;
+    }
+
+    .feature-image  img {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .feature-description {
+        margin: 20px
+    }
+
+    .feature-card  {
+        margin: 20px;
+    }
+
+    .ten-years-badge {
+        left: 50px;
+    }
+
 
 }
 
