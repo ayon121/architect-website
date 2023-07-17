@@ -374,4 +374,30 @@ main {
     .sponser-img-container {
         flex-direction: column;
     }
+
+    /* feature styles */
+    .features {
+        flex-direction: column;
+    }
+
+    .feature-title {
+        margin-left: 20px;
+    }
+
+    .feature-image  img {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .feature-description {
+        margin: 20px
+    }
+
+    .feature-card  {
+        margin: 20px;
+    }
+
+    .ten-years-badge {
+        left: 50px;
+    }
 }
